@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="icon" href="./images/icon.ico">
+<title>Linux</title>
+</head>
+<body>
+  
+  <div class="topnav" id="myTopnav">
+    <div>
+      <a href="#imagemFundo" class="logo" ><i class="fab fa-linux"></i> Linux</a> 
+    </div>
+    <a href="#imagemFundo" class="nav-link" id="link1">Home</a>
+    <a href="#infoBox" class="nav-link" id="link2">Info</a> 
+    <a href="#versions" class="nav-link" id="link3">Versions</a> 
+    <a href="#" class="nav-link" id="link4" >link4</a>
+    <a href="#" class="icon" onclick="responsive()">
+       <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  
+  <!-- https://www.youtube.com/watch?v=LCDaw0QmQQc -->
+
+  <section class="imagemFundo home" id="imagemFundo">
+    <div class="diagonal">
+        <div class="textBox">
+            <div class="titulo"><h4 class="titulo">LINUX</h4></div>
+            <div class="texto"></div>
+        </div>
+    </div>
+
+  </section>
+  
+  <main class="infoBox" id="infoBox">
+
+    <div class="grid-item" id="info">
+      <h3 class="titulo-info">O que é o Linux</h3>
+      <p class="grid-text">O Linux é um sistema operacional desenvolvido no início da década de noventa, iniciou-se com o programador Linus Torvalds, onde programou a parte inicial a parte do Linux. Baseado no sistema desenvolvido na década de setenta, o Unix, o Linux traz a proposta de ser um sistema gratuito open source com uma funcionalidade melhor para desenvolvedores e uso em servidores.</p>
+    </div>
+
+    <div class="grid-item">
+      <img src="./images/Linus.jpg" class="grid-img">
+    </div>
+
+    <div class="grid-item">
+      <img src="./images/ubuntu.png" class="grid-img">
+    </div>
+
+    <div class="grid-item" id="info2">
+      <h3 class="titulo-info">Versões e seus Desempenhos</h3>
+      <p class="grid-text">O Linux possui diversas versões, cada uma com uma especialidade diferente, algumas voltadas para o uso Desktop e outras com intuito de suportar servidores e aplicações críticas, mas todas com ótima performance, bom desempenho multitarefa e utilização de memória.</p>
+    </div>
+
+    <div class="grid-item">
+      <h3 class="titulo-info">Como Funciona</h3>
+      <p class="grid-text">Dependendo da versão que o usuário utiliza, o Linux pode ter uma interface gráfica que apresenta uma facilidade e rapidez para ser usada, ou ele pode optar por uma versão feita puramente de linhas de texto, onde o usuário navega usando os diretórios do computador, proporcionando-o todos os recursos que o sistema operacional pode oferecer, sem restrições.</p>
+    </div>
+
+    <div class="grid-item" id="info3">
+      <img src="./images/linuxcode.jpg" class="grid-img">
+    </div>
+
+  </main>
+  
+  
+  <h1 id="versions" class="version-title">Versões</h1>
+  <div class="versionBox">
+
+    <div class="grid-item-v">
+      <div class="ubuntu">
+        <div class="ubuntu-logo">
+          <img src="./images/ubuntu.ico" alt="">
+        </div>
+        <div class='ubuntu-text'>
+          <p>O Ubuntu é uma das versões mais usadas do Linux, perfeita para quem procura uma boa performance e uma interface gráfica boa, rodando desde o desktop, a nuvem e todas as coisas conectadas a internet.</p>
+          <a href="https://ubuntu.com/" target="_blank" class="ubuntu-link">Mais...</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-item-v">
+      <div class="lubuntu">
+        <div class="lubuntu-logo">
+          <img src="./images/lubuntu.ico" alt="">
+        </div>
+        <div class="lubuntu-text">
+          <p>O Lubuntu é uma versão similar ao Ubuntu porém criado para funcionar em máquinas mais antigas com menos de 512 MB de RAM.
+          </p>
+          <a href="https://lubuntu.net/" target="_blank" class="lubuntu-link">Mais...</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-item-v">
+      <div class="redhat">
+        <div class="redhat-logo grid-red">
+          <img src="./images/redhat.ico" alt="">
+        </div>
+        <div class="redhat-text grid-red">
+          <p>O RedHat é um sistema mais voltado para o uso corporativo, devido ao seu alto nível de segurança, performance e baixo índice de erros.
+          </p>
+          <a href="https://www.redhat.com/en/enterprise-linux-8" target="_blank" class="redhat-link">Mais...</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-item-v">
+      <div class="linux-mint">
+        <div class="mint-logo">
+          <img src="./images/mint.ico" alt="">
+        </div>  
+        <div class="mint-text">
+          <p>O Linux Mint é seguro e confiável com o propósito de ser um sistema moderno, fácil de usar e poderoso.
+          </p>
+          <a href="https://www.linuxmint.com/" target="_blank" class="mint-link">Mais...</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-item-v">
+      <div class="zorin">
+        <div class="zorin-logo">
+          <img src="./images/zorin.ico" alt="">
+        </div>
+        <div class="zorin-text">
+          <p> O Zorin OS tem um design simples, é baseado no Ubuntu, e também a familiarização com o Windows e o MacOS.</p>
+          <a href="https://zorinos.com/" target="_blank" class="zorin-link">Mais...</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="more-link-box">
+    <a href="https://bit.ly/35KdSWf" target="_blank" class="more-link">Mais versões</a>
+  </div>
+
+  <footer>
+    <div class="footer-text footer-grupo">
+      <p><i class="fab fa-github github-icon"></i> Desenvolvedores: <a href="https://github.com/eJil" target="_blank" class="github-link">Eyriam</a>, <a href="https://github.com/Hathner" target="_blank" class="github-link">João Hathner</a>, <a href="https://github.com/cd-programming-JuanAlejandro" target="_blank" class="github-link">Juan</a>, <a href="https://github.com/Samtapes" target="_blank" class="github-link">Gustavo</a> e Lucas Sodré</p>
+    </div>
+    <p class="footer-text copyright"><i class="fab fa-linux linux-copy"></i> Copyright LINUX © </p>
+  </footer>
+
+<script src="./js/navBar.js"></script>
+<script src="./js/changeContent.js"></script>
+
+</body>
+</html>
